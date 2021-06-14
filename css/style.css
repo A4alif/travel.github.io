@@ -1,0 +1,269 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+#header {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/banner1.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header .logo img {
+    width: 170px;
+    padding-top: 1.5rem;
+}
+#header .login_button  {
+    padding-top: 1.5rem;
+}
+#header .login_button  .login_btn {
+    width: 100%;
+    padding: .70rem 2rem;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+
+}
+#header .title h2 {
+    padding-top: 250px;
+    font-size: 55px;
+    margin-bottom: 1.2rem;
+}
+#header .title p {
+    margin-bottom: 2rem;
+}
+#header .input-group {
+   width: 90%;
+   max-width: 550px;
+   margin: auto;
+   border-radius: 30px;
+   background: #fff;
+   padding: 2px;
+}
+#header .form-control {
+    border: 0  !important;
+    border-radius: 30px;
+    margin: 2px;
+    box-shadow: none !important;
+}
+#header .input-group-text {
+    width: 100px;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: none !important;
+    padding: 0 25px;
+    border-radius: 30px;
+    box-shadow: none;
+    color: white;
+
+}
+/* Header end */
+/* Featured Start */
+#featured {
+    padding: 100px 0;
+}
+#featured .feature-img img {
+    width: 100%;
+    
+}
+#featured .feature-img {
+    position: relative;
+}
+#featured .price {
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 25px;
+    bottom: -25px;
+}
+#featured .rating {
+    background: #fff;
+    padding: 3px;
+    float: right;
+    position: absolute;
+    right: 0px;
+    bottom: -1px;
+}
+#featured .rating i {
+    font-size: 15px;
+    color: #ff5722;
+}
+#featured .feature-details {
+    padding: 20px;
+    text-align: justify;
+}
+#featured .feature-details h4 {
+    margin-top: 20px;
+}
+#featured .feature-details i {
+    font-size: 16px;
+    color:#ff5722 ;
+}
+#featured .feature_box {
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-right: 5px;
+    margin-bottom: 30px;
+}
+/* Featured end */
+
+/* gallery start  */
+#gallery {
+    background: #EFEFEF;
+    padding: 6rem;
+}
+
+#gallery .gallery_box img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+#gallery .gallery_box {
+    position: relative;
+    transition: all 1s ease-in-out;
+}
+#gallery .gallery_box:hover {
+    transform: scale(1.1);
+}
+
+#gallery .gallery_box h4 {
+
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: -2px 2px 2px #000;
+
+}
+
+/* gallery end */
+
+/* Banner start */
+#banner  {
+    
+    background: url('../img/banner2.jpg');
+    height: 80vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* padding-top: 0%; */
+    
+
+}
+#banner .banner-highlight {
+    padding: 70px 0;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    text-align: center;
+    transform: translateY(250px); // use this for moving item
+}
+#banner .booking-btn {
+    width: 50%;
+    padding: .70rem 1rem;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+/* Banner end */
+/* testimonial start */
+#testimonial {
+    padding: 6rem 0;
+}
+#testimonial .user-review {
+    text-align: center;
+    box-shadow: 0 0 20px 1px rgba(37,73,214,0.18);
+    padding-bottom: 30px;
+}
+#testimonial .user-review .fas {
+    padding: 50px 10px 10px 10px;
+    color: skyblue;
+    font-size: 35px;
+}
+#testimonial .user-review img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+   margin-bottom: -50px;
+}
+/* testimonial end */
+
+/* Footer Start */
+#footer {
+    background-image: linear-gradient(#2d557d,#9610fb);
+    color: white;
+    padding: 90px 20px 15px;
+}
+#footer .footer_logo {
+    width: 180px;
+    padding-bottom: 15px
+}
+#footer .footer_text {
+    font-size: .90rem;
+    text-align: justify;
+    padding-right: 15px;
+}
+#footer .feature_text h4 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+#footer .feature_text {
+    margin-left: 15px;
+}
+
+#footer .contact h4 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+
+}
+#footer .contact  {
+    text-align: left;
+}
+
+#footer .contact i {
+    font-size: 16px;
+    padding-right: 16px;
+}
+
+#footer .follow h4 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+
+}
+
+#footer .follow i {
+    font-size: 16px;
+    padding-right: 16px;
+}
+#footer hr {
+    margin-top: 10px;
+    background: #efefef;
+}
+#footer .copyright i {
+    margin: 0 5px;
+    color: red;
+}
+#footer .copyright {
+    text-align: center;
+}
+/* Footer end */
